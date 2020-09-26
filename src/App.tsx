@@ -21,7 +21,7 @@ export default class App extends Component<{},IState> {
 
       <Form onSubmit={this.onFormSubmit}>
         <Input value={name} onChange={this.onChange}></Input>
-        <Input value={name} onChange={this.onChange}></Input>
+        
       </Form>
 
         <Number count={counter}></Number>
